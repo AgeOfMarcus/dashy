@@ -15,6 +15,14 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
+- name: Utilities
+  icon: fa-solid fa-gear
+  items:
+  - title: Dupl Analytics
+    description: A developer-friendly, privacy-respecting simple analytics engine
+    icon: https://analytics.marcusj.tech/static/icon2.png
+    url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
+    target: newtab
 - name: Getting Started
   icon: fas fa-rocket
   items:
