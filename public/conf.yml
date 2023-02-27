@@ -29,6 +29,7 @@ sections:
     description: A developer-friendly, privacy-respecting simple analytics engine
     icon: https://analytics.marcusj.tech/static/icon2.png
     url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
+    statusCheck: false
     target: newtab
   - title: notes
     description: Simple notes with live markdown rendering and share-able links
@@ -73,11 +74,14 @@ sections:
     description: Turn any image into a rotating gif
     icon: fa-sharp fa-gear
     url: https://share.streamlit.io/ageofmarcus/rotatify/main
-- type: clock
-  options:
-    timeZone: Europe/London
-    format: en-GB
-    hideDate: false
-- type: public-ip
+- name: Widgets
+  - name: Clock
+    type: clock
+    options:
+      timeZone: Europe/London
+      format: en-GB
+      hideDate: false
+  - name: IP
+    type: public-ip
   
   
