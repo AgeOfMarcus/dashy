@@ -4,18 +4,14 @@ pageInfo:
   title: Dashy - marcusj
   description: Dashboard for marcusj
   navLinks:
-  - title: GitHub
-    path: https://github.com/AgeOfMarcus
-  - title: Replit
-    path: https://replit.com/@MarcusWeinberger
-  - title: Instagram
-    path: https://www.instagram.com/pwned_by_marcus
-  - title: LinkedIn
-    path: https://linkedin.com/in/marcusweinberger
+  - title: Source (GitHub)
+    path: https://github.com/AgeOfMarcus/dashy
+  - title: Analytics
+    path: https://analytics.marcusj.tech/dash.marcusj.tech
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: minimal-dark
 
 # Main content - An array of sections, each containing an array of items
 sections:
