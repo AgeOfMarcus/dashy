@@ -18,6 +18,7 @@ appConfig:
   - user: marcus
     hash: c6d66d5292f88f478c41c1e9757547ca039ed94b9deae0cb4d6a406aa8f71ef7
     type: admin
+  statusCheck: true
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -72,13 +73,11 @@ sections:
     description: Turn any image into a rotating gif
     icon: fa-sharp fa-gear
     url: https://share.streamlit.io/ageofmarcus/rotatify/main
-- name: General Widgets
-  items:
-  - type: clock
-    options:
-      timeZone: Europe/London
-      format: en-GB
-      hideDate: false
-  - type: public-ip
+- type: clock
+  options:
+    timeZone: Europe/London
+    format: en-GB
+    hideDate: false
+- type: public-ip
   
   
