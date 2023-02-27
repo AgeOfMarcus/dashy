@@ -12,18 +12,67 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: minimal-dark
+  auth:
+    enableGuestAccess: true
+  users:
+  - user: marcus
+    hash: c6d66d5292f88f478c41c1e9757547ca039ed94b9deae0cb4d6a406aa8f71ef7
+    type: admin
 
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Utilities
   icon: fa-solid fa-gear
   items:
-  - title: Dupl Analytics
+  - title: dupl analytics
     description: A developer-friendly, privacy-respecting simple analytics engine
     icon: https://analytics.marcusj.tech/static/icon2.png
     url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
     target: newtab
-- name: Getting Started
+  - title: notes
+    description: Simple notes with live markdown rendering and share-able links
+    icon: https://notes.marcusj.tech/static/note.png
+    url: https://notes.marcusj.tech
+    target: newtab
+  - title: images
+    description: Simple, anonymous, secure. Image hosting
+    icon: https://marcusj.tech/assets/img/fashion.svg
+    url: https://i.marcusj.tech
+    target: newtab
+  - title: tmpmail
+    description: Disposable emails
+    icon: https://mail.marcusj.tech/favicon.ico
+    url: https://mail.marcusj.tech
+    target: newtab
+  - title: linkr
+    description: Redirector (IP Grabber w scripts)
+    icon: https://linkr.marcusj.tech/static/Link.ico
+    url: https://linkr.marcusj.tech
+    target: newtab
+- name: Sites
+  icon: fa-solid fa-globe
+  items:
+  - title: Good day Bad day
+    description: Keep track of the good and bad
+    icon: https://gdbd.marcusj.tech/static/icon.png
+    url: https://gdbd.marcusj.tech
+  - title: Shitty Portfolio
+    description: I don't do frontend
+    icon: https://marcusj.tech/assets/img/fashion.svg
+    url: https://marcusj.tech
+  - title: srcMovies
+    description: A movie streaming service
+    icon: fas fa-film
+    url: https://srcmovies.marcusj.tech
+  - title: RafStonks
+    description: Fake gamba based off roobet crash
+    icon: https://rafstonks.marcusj.tech/static/rocket.ico
+    url: https://rafstonks.marcusj.tech
+  - title: Rotatify
+    description: Turn any image into a rotating gif
+    icon: fa-sharp fa-gear
+    url: https://share.streamlit.io/ageofmarcus/rotatify/main
+- name: Dashy
   icon: fas fa-rocket
   items:
   - title: Dashy Live
