@@ -95,6 +95,10 @@ sections:
   - type: iframe
     options:
       url: https://hack.chat/?marcusj
+  - type: embed
+    options:
+      html: |
+        <div id='analytics'></div>
   
 - name: General Info
   icon: fas fa-rocket
