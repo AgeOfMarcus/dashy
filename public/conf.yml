@@ -79,6 +79,10 @@ sections:
     description: Turn any image into a rotating gif
     icon: fa-sharp fa-gear
     url: https://share.streamlit.io/ageofmarcus/rotatify/main
+  - title: multicurcors
+    description: A website where other visitors cursors are visible
+    icon: fas fa-mouse-pointer
+    url: https://replit.com/talk/share/Multiplayer-cursors/55802
 - name: Personal Stats
   icon: fa-solid fa-user
   widgets:
