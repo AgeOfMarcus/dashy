@@ -83,6 +83,13 @@ sections:
     description: A website where other visitors cursors are visible
     icon: fas fa-mouse-pointer
     url: https://replit.com/talk/share/Multiplayer-cursors/55802
+- name: Not mine
+  icon: fa fa-user-secret
+  items:
+  - title: chat
+    description: My room on hack.chat
+    icon: https://hack.chat/favicon.ico
+    url: https://hack.chat/?marcusj
 - name: Personal Stats
   icon: fa-solid fa-user
   widgets:
@@ -92,13 +99,6 @@ sections:
   - type: iframe
     options:
       url: https://notes.marcusj.tech/link/dashy
-  - type: iframe
-    options:
-      url: https://hack.chat/?marcusj
-  - type: embed
-    options:
-      html: |
-        <div id='analytics'></div>
   
 - name: General Info
   icon: fas fa-rocket
