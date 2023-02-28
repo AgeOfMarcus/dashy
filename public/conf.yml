@@ -52,6 +52,10 @@ sections:
     icon: https://linkr.marcusj.tech/static/Link.ico
     url: https://linkr.marcusj.tech
     target: newtab
+  - title: GPT3 Telegram
+    description: GPT3-Powered Telegram Bot
+    icon: https://web.telegram.org/k/assets/img/favicon-32x32.png?v=jw3mK7G9Ry
+    url: https://t.me/GPTFree_pBot
 - name: Sites
   icon: fa-solid fa-globe
   items:
@@ -84,6 +88,9 @@ sections:
   - type: iframe
     options:
       url: https://notes.marcusj.tech/link/dashy
+  - type: iframe
+    options:
+      url: https://hack.chat/?marcusj
   
 - name: General Info
   icon: fas fa-rocket
@@ -101,6 +108,14 @@ sections:
       countries:
       - GBR
       - USA
+  - type: tfl-status
+    options:
+      showAll: true
+      sortAlphabetically: true
+      linesToShow:
+      - Picadilly
+      - Northern
+      - Victoria
   - type: embed
     options:
       scriptSrc: https://cdn.speedcheck.org/basic/scbjs.min.js
