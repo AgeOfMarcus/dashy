@@ -28,7 +28,8 @@ sections:
   - title: dupl analytics
     description: A developer-friendly, privacy-respecting simple analytics engine
     icon: https://analytics.marcusj.tech/static/icon2.png
-    url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
+#    url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
+    url: https://analytics.marcusj.tech
     statusCheck: false
     target: newtab
   - title: notes
