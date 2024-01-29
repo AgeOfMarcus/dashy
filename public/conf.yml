@@ -7,7 +7,7 @@ pageInfo:
   - title: Source (GitHub)
     path: https://github.com/AgeOfMarcus/dashy
   - title: Analytics
-    path: https://analytics.marcusj.tech/dash.marcusj.tech
+    path: https://analytics.marcusj.org/dash.marcusj.org
 
 # Optional app settings and configuration
 appConfig:
@@ -27,30 +27,30 @@ sections:
   items:
   - title: dupl analytics
     description: A developer-friendly, privacy-respecting simple analytics engine
-    icon: https://analytics.marcusj.tech/static/icon2.png
+    icon: https://analytics.marcusj.org/static/icon2.png
 #    url: https://replit.com/talk/share/dupl-analytics-how-to-use-our-free-web-analytics-service/81044
-    url: https://analytics.marcusj.tech
+    url: https://analytics.marcusj.org
     statusCheck: false
     target: newtab
   - title: notes
     description: Simple notes with live markdown rendering and share-able links
-    icon: https://notes.marcusj.tech/static/note.png
-    url: https://notes.marcusj.tech
+    icon: https://notes.marcusj.org/static/note.png
+    url: https://notes.marcusj.org
     target: newtab
   - title: images
     description: Simple, anonymous, secure. Image hosting
-    icon: https://marcusj.tech/assets/img/fashion.svg
-    url: https://i.marcusj.tech
+    icon: https://marcusj.org/assets/img/fashion.svg
+    url: https://i.marcusj.org
     target: newtab
   - title: tmpmail
     description: Disposable emails
-    icon: https://mail.marcusj.tech/favicon.ico
-    url: https://mail.marcusj.tech
+    icon: https://mail.marcusj.org/favicon.ico
+    url: https://mail.marcusj.org
     target: newtab
   - title: linkr
     description: Redirector (IP Grabber w scripts)
-    icon: https://linkr.marcusj.tech/static/Link.ico
-    url: https://linkr.marcusj.tech
+    icon: https://linkr.marcusj.org/static/Link.ico
+    url: https://linkr.marcusj.org
     target: newtab
   - title: GPT3 Telegram
     description: GPT3-Powered Telegram Bot
@@ -61,20 +61,20 @@ sections:
   items:
   - title: GDBD
     description: Keep track of the good and bad
-    icon: https://gdbd.marcusj.tech/static/icon.png
-    url: https://gdbd.marcusj.tech
+    icon: https://gdbd.marcusj.org/static/icon.png
+    url: https://gdbd.marcusj.org
   - title: Portfolio
     description: I dont do frontend
-    icon: https://marcusj.tech/assets/img/fashion.svg
-    url: https://marcusj.tech
+    icon: https://marcusj.org/assets/img/fashion.svg
+    url: https://marcusj.org
   - title: srcMovies
     description: A movie streaming service
     icon: fas fa-film
-    url: https://srcmovies.marcusj.tech
+    url: https://srcmovies.marcusj.org
   - title: RafStonks
     description: Fake gamba based off roobet crash
-    icon: https://rafstonks.marcusj.tech/static/rocket.ico
-    url: https://rafstonks.marcusj.tech
+    icon: https://rafstonks.marcusj.org/static/rocket.ico
+    url: https://rafstonks.marcusj.org
   - title: Rotatify
     description: Turn any image into a rotating gif
     icon: fa-sharp fa-gear
@@ -98,7 +98,7 @@ sections:
       username: AgeOfMarcus
   - type: iframe
     options:
-      url: https://notes.marcusj.tech/link/dashy
+      url: https://notes.marcusj.org/link/dashy
   
 - name: General Info
   icon: fas fa-rocket
